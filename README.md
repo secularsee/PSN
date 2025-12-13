@@ -19,7 +19,7 @@ pip install .
 2. Prepare Pre-trained Models:
    Download or train the VGG16 and ResNet18 models. Place the model checkpoints into the `pretrained_models` folder.
 
-3. **Calculate Propagation Sensitivity Scores**:
+3. Calculate Propagation Sensitivity Scores:
    Run the following scripts to compute the neuron-wise propagation sensitivity scores for VGG16 and ResNet18:
 
    ```bash
