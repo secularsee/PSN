@@ -1,16 +1,21 @@
 # PSN
-code for paper"Propagation-Sensitive Neurons: A Verification-Based Method for Interpreting and Enhancing Adversarial Robustness"
+
+Official implementation of the paper: **"Propagation-Sensitive Neurons: A Verification-Based Method for Interpreting and Enhancing Adversarial Robustness"**.
+
 ## Installation
 
 ### Requirements
-* Python: 3.11+
-* PyTorch: 2.0+
+* **Python**: 3.11+
+* **PyTorch**: 2.0+
 
 ### Install Auto-LiRPA
 To install the `auto-lirpa` toolkit, run the following command in the root directory:
 
 ```bash
 pip install .
+
+Usage
+
 
 1. Navigate to the working directory:
    ```bash
