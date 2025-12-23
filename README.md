@@ -14,7 +14,8 @@ To install the `auto-lirpa` toolkit, run the following command in the root direc
 ```bash
 pip install .
 ```
-Usage
+
+### Usage
 
 
 1. Navigate to the working directory:
