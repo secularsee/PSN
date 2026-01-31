@@ -43,3 +43,39 @@ pip install .
 
    # For ResNet18
    python compute_sensitivity_neurons_percentile_resnet18.py
+
+### Analysis Experiment
+
+1. Evaluating the the activation deviations of PSNs:
+   Run this script to evaluate the activation deviations of PSNs in VGG16 and ResNet18 models under noise and adversarial attacks:
+
+   ```bash
+   # For VGG16
+   python eval_neural_percentile_compare_activation_vgg16.py
+
+   # For ResNet18
+   python eval_neural_percentile_compare_activation_resnet18.py
+
+2. Visualize the focus regions of PSNs:
+   Run this script to visualize the focus regions of PSNs in VGG16 and ResNet18 models under adversarial attacks:
+
+   ```bash
+   # For VGG16
+   python full_visualization_vgg16_heatmap.py
+
+   # For ResNet18
+   python full_visualization_resnet18_heatmap.py
+
+3. Evaluate the impact of attacking PSNs:
+
+   Run this script to evaluate the impact of attacking PSNs in VGG16 and ResNet18 models on prediction results:
+
+   ```bash
+   # For VGG16
+   python sensitivity_attack_compare_vgg16.py
+
+   # For ResNet18
+   python sensitivity_attack_compare_resnet18.py
+
+
+
